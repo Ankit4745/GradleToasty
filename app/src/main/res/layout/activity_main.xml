@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0D0D"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/error"
+        android:onClick="show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:background="#E21717"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+    <Button
+
+        android:id="@+id/success"
+        android:onClick="show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUCCESS"
+        android:background="#6EC72D"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <Button
+
+        android:id="@+id/info"
+        android:onClick="show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFO"
+        android:background="#F7CD2E"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <Button
+
+        android:id="@+id/warning"
+        android:onClick="show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WARNING"
+        android:background="#E03B8B"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+
+        android:id="@+id/Image"
+        android:onClick="show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMAGE"
+        android:background="#5A20CB"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+
+</LinearLayout>

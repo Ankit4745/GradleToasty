@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GradleToasty" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#CAD5E2</item>
+        <item name="colorPrimaryDark">#03C6C7</item>
+        <item name="colorAccent">#FF6666</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
